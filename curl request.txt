@@ -1,0 +1,15 @@
+curl -X 'POST' \
+  'http://localhost:8080/Ranking - Corona Vaccine' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "Vaccine List": [
+    "Gamaleya Scientific Research Institute",
+    "Johnson & Johnson & Janssen Pharmaceuticals",
+    "Moderna",
+    "Novavax",
+    "Pfizer & BioNTech",
+    "Sinovac",
+    "University of Oxford & AstraZeneca"
+  ]
+}'
